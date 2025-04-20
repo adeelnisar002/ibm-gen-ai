@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Assistant - Powered by Groq AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body class="dark-mode">
+    <div class="container">
+      <header>
+        <h1>Voice Assistant</h1>
+        <p class="subtitle">Your personal assistant powered by Groq's LLM and Voice AI</p>
+      </header>
+
+      <div class="controls">
+        <div class="toggle-container">
+          <label class="switch">
+            <input type="checkbox" id="themeToggle" checked>
+            <span class="slider round"></span>
+          </label>
+          <span>Toggle light/dark mode</span>
+        </div>
+
+        <div class="voice-selector">
+          <label for="voiceSelect">Choose a Voice:</label>
+          <select id="voiceSelect">
+            <option value="default">Default</option>
+            <option value="Aaliyah-PlayAI">Aaliyah</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="hint">
+        <p>Try asking: What can you specifically do? Type in your question or record it by clicking the microphone!</p>
+      </div>
+
+      <div class="chat-container" id="chatContainer">
+        <!-- Chat messages will appear here -->
+      </div>
+
+      <div class="input-container">
+        <textarea id="userInput" placeholder="Type your message here..."></textarea>
+        <button id="sendBtn" class="action-btn">Send</button>
+        <button id="micBtn" class="action-btn">
+          <span class="mic-icon">🎤</span>
+        </button>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  </body>
+</html>
