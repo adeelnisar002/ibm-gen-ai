@@ -88,7 +88,3 @@ This will launch a web interface that combines speech-to-text transcription with
 - `simple_llm.py`: Basic text analysis utility
 - `speech2text_app.py`: Web interface for speech-to-text transcription
 - `speech_analyzer.py`: Combined web interface for transcription and analysis
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
