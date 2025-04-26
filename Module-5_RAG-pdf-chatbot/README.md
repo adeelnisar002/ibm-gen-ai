@@ -14,11 +14,11 @@ This project implements a PDF-based chatbot using Groq's LLM (Large Language Mod
 
 Here are some screenshots of the application in action:
 
-![Chat Interface 1](screenshots/chat1.png)
-*Initial chat interface with PDF upload functionality*
+![Screenshot 2025-04-27 024858](https://github.com/user-attachments/assets/a20cc3eb-b611-4f8c-ae54-d32fd6184034)
 
-![Chat Interface 2](screenshots/chat2.png)
-*Example of the chatbot answering questions about recipes*
+![image](https://github.com/user-attachments/assets/73bc9518-ef42-4bae-8a8b-7349bfffbb74)
+
+
 
 ## Technology Stack
 
@@ -40,7 +40,7 @@ Here are some screenshots of the application in action:
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd build_own_chatbot_without_open_ai
+cd
 ```
 
 2. Install the required packages:
